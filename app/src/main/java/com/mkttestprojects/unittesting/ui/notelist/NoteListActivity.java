@@ -145,6 +145,7 @@ public class NoteListActivity extends DaggerAppCompatActivity implements
                 }
             };
 
+
     @Override
     public void onNoteClick(Note note) {
         Intent intent = new Intent(this, NoteActivity.class);
